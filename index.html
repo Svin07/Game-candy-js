@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/free-icon-candy-2218714.png"
+      type="image/png"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Спіймай цукерку</title>
   </head>
   <body>
-    <div class="screen">
+    <div class="screen visible">
       <h2>Гра "Спіймай цукерку"</h2>
       <button class="btn" id="start-btn">Почати гру</button>
     </div>
@@ -40,9 +45,9 @@
         </li>
       </ul>
     </div>
-    <div class="screen visible game-container" id="game-container">
-      <h3 class="time" id="time">Час:0</h3>
-      <h3 class="score" id="score">Рахунок:0</h3>
+    <div class="screen game-container" id="game-container">
+      <h3 class="time" id="time">Час: 0</h3>
+      <h3 class="score" id="score">Рахунок: 0</h3>
     </div>
 
     <audio id="bite" src="./assets//bite.mp3"></audio>
